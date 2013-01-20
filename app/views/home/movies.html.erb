@@ -1,0 +1,19 @@
+
+<div id="movie_form">
+  <h1>MovieNight</h1>
+  <%= form_tag '/results' do %>
+  	<h2><%= label_tag 'Enter titles of movies separated by a comma to retrieve info...' %> </h2>
+    	<%= text_area_tag 'titles' %>
+    	<%= submit_tag 'Get Movie Info', :id => 'button' %>
+<% end %>
+
+  <div id="about">
+    <p>
+      <h4>ABOUT:</h4><strong>Movie Night</strong> is a simple Rails app that utilizes the <a href="http://www.omdbapi.com/" target="_blank">Open Movie Database API</a> to retrieve information about movies from the <a href="http://www.imdb.com/" target="_blanl">IMDB</a>, including release date, rating, actors, etc...
+    </p>
+    <p>
+    Enter any movie titles you'd like to check out and separated each with a comma.
+    </p>
+</div>
+
+</div> <!-- end movie_form-->
