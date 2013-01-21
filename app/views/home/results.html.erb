@@ -16,26 +16,29 @@
 					<p> Release Date: <%= movie['Released'] %></p>
 					<p> Runtime: <%= movie['Runtime'] %></p>
 
-					Actors:
+					<p class="list">Actors:
 						<ul>
 							<% movie['Actors'].split(', ').each do |actor|  %>
 							<li> <%= actor %></li>
 							<% end %>
 						</ul>
+					</p>
 
-					Director(s):
+					<p class="list">Director(s):
 						<ul>
 							<% movie['Director'].split(', ').each do |director| %>
 							<li> <%= director %></li>
 							<% end %>
 						</ul>
+					</p>
 
-					Genre(s):
+					<p class="list">Genre(s):
 						<ul>
 							<% movie['Genre'].split(', ').each do |genre| %>
 							<li> <%= genre %></li>
 							<% end %>
 						</ul>
+					</p>
 
 				<div class="clear"></div>
 

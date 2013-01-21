@@ -1,5 +1,5 @@
 
-@import url(http://fonts.googleapis.com/css?family=IM+Fell+Double+Pica+SC);
+@import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
 
 body {
 	height: 100%;
@@ -8,9 +8,9 @@ body {
   padding: 0;
   background-image: url('../assets/theatre_curtains.jpg');
   background-repeat: no-repeat;
-  background-position: center center fixed;
+  background-position: center;
   background-size: cover;
-  font-family: 'IM Fell Double Pica SC', serif;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .clear {
@@ -38,7 +38,7 @@ HOME PAGE
   text-align: left;
   border-bottom-right-radius: 25px;
   border-top-right-radius: 25px;
-  font-family: 'IM Fell Double Pica SC', serif;
+  font-family: 'Abril Fatface', cursive;
 }
 
 h1 {
@@ -56,7 +56,7 @@ textarea
 {
   margin-left: 2%;
 	font-size: 1.0em;
-  font-family: 'IM Fell Double Pica SC', serif;
+  font-family: 'Abril Fatface', cursive;
 	padding: 2%;
 	width: 90%;
 	height: 150px;
@@ -78,7 +78,7 @@ textarea
 -webkit-border-radius: 5px;
 text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
 border-bottom: 1px solid rgba(0,0,0,0.25);
-font-family: 'IM Fell Double Pica SC', serif;
+font-family: 'Abril Fatface', cursive;
 font-size: 1.500em;
 padding: 8px 14px 9px;
 background: #B41C17;
@@ -118,11 +118,11 @@ RESULTS PAGE
   filter:alpha(opacity=80);
   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.8);
   opacity: 0.80;*/
-  font-family: 'IM Fell Double Pica SC', serif;
+  font-family: 'Abril Fatface', cursive;
   font-size: 14px;
   background-color: #E8E8E6;
   color: #282728;
-  width: 75%;
+  width: 85%;
   height: auto;
   padding: 4%;
   border-radius: 25px;
@@ -139,22 +139,24 @@ RESULTS PAGE
 #title
 {
   margin-left: 5%;
+  margin-top: 1%;
   font-size: 1.75em;
 }
 
 .info p
 {
-  font-size: 1.25em;
+  font-size: 1.10em;
 }
+
 
 ul
 {
-  margin-left: 50%;
+  margin-top: -2%;
+  margin-left: 40%;
 }
-
 
 footer {
 	margin-left: 10px;
-	font-family: 'IM Fell Double Pica SC', serif;
+	font-family: 'Abril Fatface', cursive;
 	color: white;
 }
